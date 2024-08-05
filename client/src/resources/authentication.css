@@ -1,0 +1,68 @@
+.register{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);
+}
+
+.lottie{
+    height:90%;
+    width: 100;
+}
+.loginlottie{
+    height:90%;
+    width: 150%;
+}
+.row{
+    height: 80%;
+    width: 100%;
+}
+.loginrow{
+    height: 70%;
+    width: 80%;
+}
+.left_div{
+    height: 80%;
+    width: 60%;
+    padding: 5%;
+}
+
+.right_div{
+    height: 80%;
+    width: 40%;
+    padding-right: 10%;
+}
+.rig_div{
+    height: 80%;
+    width: 40%;
+    padding-right: 10%;
+}
+.lef_div{
+    height: 80%;
+    width: 40%;
+    padding-right: 10%;
+}
+
+.register input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.148);
+    color: rgba(14, 2, 2, 0.92);
+}
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid rgba(117, 113, 113, 0.784) !important;
+   
+ }
+
+ label , a{
+    color: rgba(11, 6, 6, 0.884) !important;
+}
+
+.register h1{
+    font-size: 40px;
+    color: rgba(7, 0, 0, 0.749);
+    font-weight: 600;
+}
